@@ -299,6 +299,7 @@ export default function Pricing() {
                 </div>
                 <div className={`${style.individual_content}`}>
                   <h3 className={`${style.individual_name}`}>Smart Dashboards</h3>
+                  <span className={`${style.individual_description}`}>Visualize your business data</span>
                   <div className={`${style.individual_price}`}>
                     <span className={`${style.individual_price_value}`}>EGP 500</span>
                     <span className={`${style.individual_price_period}`}>/month</span>
