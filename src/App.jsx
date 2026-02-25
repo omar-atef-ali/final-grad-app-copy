@@ -26,6 +26,8 @@ import ProfileBilling from "./Components/ProfileBilling/ProfileBilling";
 import CheckEmail from "./Components/CheckEmail/CheckEmail";
 import ConfirmEmail from "./Components/ConfirmEmail/ConfirmEmail";
 import FeatureDetails from "./Components/FeatureDetails/FeatureDetails";
+import Demo from "./Components/Demo/Demo";
+import Pricing from "./Components/Pricing/Pricing";
 
 let routers = createBrowserRouter([
   { index: true, element: <Register /> },
@@ -35,6 +37,7 @@ let routers = createBrowserRouter([
    { path: "/change-password", element: <ChangePassword /> },
 
   { path: "google/callback", element: <GoogleCallback /> },
+ 
 
   { path: "login", element: <Login /> },
   {
@@ -46,7 +49,8 @@ let routers = createBrowserRouter([
     element: <Layout />,
     children: [
       { path: "home", element: <Home /> },
-
+       { path: "demo", element: <Demo /> },
+       { path: "pricing", element: <Pricing /> },
       { path: "features", element: <Features /> },
       { path: "feature-details/:id", element: <FeatureDetails /> },
 

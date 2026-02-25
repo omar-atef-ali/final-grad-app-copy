@@ -110,10 +110,12 @@ export default function NavBar() {
               </button>
               <span
                 className=" overflow-hidden d-block"
+               
                 style={{
                   fontSize: "18px",
                   fontWeight: "500",
                   color: "var(--text-gray)",
+                  cursor:"pointer"
                 }}
               >
                 Demo
