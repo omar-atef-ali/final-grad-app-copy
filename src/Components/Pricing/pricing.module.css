@@ -299,7 +299,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 10px;
-  margin-top: 28px;
+  margin-top: 50px;
 }
 
 .carousel_dot {
@@ -653,7 +653,7 @@ body {
 }
 /* Individual Features Section */
 .individual_features_section {
-    background: #FAFAFA;
+    /* background: #FAFAFA; */
     padding: 80px 0;
 }
 
@@ -1055,6 +1055,7 @@ body {
     .carousel_dots {
         margin-top: 20px;
         gap: 10px;
+        
     }
 
     .carousel_dot {
